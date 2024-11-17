@@ -17,14 +17,14 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "abc"
-#define WIFI_PASSWORD "123456789"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyBqWIgH1GBCccbXS8lOp-OYUg0b9SQr9HA"
+#define API_KEY ""
 // Insert RTDB URLefine the RTDB URL */
 //https://vehiclecrashgps-default-rtdb.firebaseio.com/
-#define DATABASE_URL "gpsaccidentdet-default-rtdb.firebaseio.com"
+#define DATABASE_URL ""
 //https://gpsaccidentdet-default-rtdb.firebaseio.com/
 //Define Firebase Data object
 FirebaseData fbdo;
